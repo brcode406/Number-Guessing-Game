@@ -1,2 +1,5 @@
 # Number-Guessing-Game
-My first project in C#
+
+Step1 : while and input  
+Step2 : if , else , logique and operateurs
+Step3 : enjoy!
