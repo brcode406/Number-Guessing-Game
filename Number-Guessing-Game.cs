@@ -1,21 +1,21 @@
-int prix = 9;
+int price = 9;
 int userChoice =0;
 
 
-while (userChoice != prix)
+while (userChoice != price)
 {
     Console.WriteLine("Enter price:");
     userChoice = Convert.ToInt32(Console.ReadLine());
-    if (prix == userChoice)
+    if (price == userChoice)
         {
-            Console.WriteLine("Bravo le prix est exacte !!");
+            Console.WriteLine("Well done, the price is correct!!");
         }
-    else if (userChoice < prix)
+    else if (userChoice < price)
         {
-            Console.WriteLine("Le prix est plus grand!");
+            Console.WriteLine("The prize is bigger!");
         }
     else
         {
-            Console.WriteLine("Le prix est plus petit!");
+            Console.WriteLine("The price is lower!");
         }
 }
