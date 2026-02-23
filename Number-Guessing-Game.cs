@@ -1,4 +1,6 @@
-int price = 9;
+Random dice = new Random();
+
+int price = dice.Next(1, 100);
 int userChoice =0;
 
 
